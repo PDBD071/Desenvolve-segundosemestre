@@ -1,0 +1,33 @@
+2) Imagine que você está desenvolvendo um sistema de gerenciamento de uma biblioteca. Neste sistema, é necessário modelar livros, autores, usuários, empréstimos e devoluções. Cada livro possui informações como título, autor e gênero. Os autores têm nome, nacionalidade e obras publicadas. Os usuários da biblioteca têm nome, idade e histórico de empréstimos. Os empréstimos registram a data de retirada e devolução, além do livro e usuário envolvidos. 
+Com base no cenário descrito, analise qual paradigma de programação seria mais indicado para implementar o sistema de gerenciamento da biblioteca: 
+a) programação estruturada (  )
+b) programação imperativa  (  )
+c) programação orientada a objetos ou ( x )
+d) programação funcional (  )
+Justifique sua escolha considerando a estrutura e as interações entre os objetos do sistema. 
+Para facilitar, considere pontos como: 
+- Estrutura e interação das entidades do sistema (Livros, autores, usuários e demais) 
+- Reuso 
+- Qual paradigma facilitaria a evolução do sistema, no futuro 
+- Eficiência, dado o cenário apresentado 
+Dica: A combinação dos paradigmas de programação pode ser viável em certos contextos, mas geralmente não é recomendada devido a diferenças fundamentais entre os paradigmas 
+
+Estrutura e Interação das Entidades:
+A POO permite modelar as entidades (como Livros, Autores, Usuários, Empréstimos) de forma intuitiva, com cada entidade sendo representada como objetos com atributos e comportamentos próprios. As relações entre essas entidades são claras e refletem a realidade, como a relação entre um livro e seus autores ou um usuário e seus empréstimos. O encapsulamento protege os dados, garantindo que eles sejam manipulados apenas por métodos específicos.
+
+Reuso:
+A herança possibilita a criação de hierarquias de classes, permitindo reaproveitar código comum, como criar uma classe "Material" para livros, revistas e DVDs. O polimorfismo facilita o uso de código genérico, permitindo que diferentes tipos de materiais possam ser tratados de forma uniforme.
+
+Evolução do Sistema:
+A POO facilita a evolução do sistema, permitindo a adição de novas funcionalidades com baixo impacto no restante do código. A estrutura modular e organizada também facilita a manutenção e correção de erros.
+
+Eficiência:
+A modularidade da POO, com classes representando unidades independentes, facilita a organização e depuração do código, além de proporcionar flexibilidade para se adaptar a novos requisitos.
+
+Combinação de Paradigmas:
+Embora possível, a combinação de paradigmas (como POO e programação funcional) pode complicar o desenvolvimento e dificultar a manutenção do código devido às diferenças filosóficas entre os paradigmas.
+
+Conclusão:
+A Programação Orientada a Objetos oferece uma estrutura clara e escalável, facilitando o desenvolvimento, a reutilização de código e a evolução de um sistema de gerenciamento de biblioteca. Ela é a escolha mais adequada para esse tipo de sistema, garantindo organização, flexibilidade e eficiência no desenvolvimento.
+
+
