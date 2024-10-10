@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.feed-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+textarea {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    resize: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d95e8;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 100px; /* Deixar espaço para o formulário fixo */
+}
+
+.post {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post img.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.post img.cat-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+}
+
+.post-header div {
+    margin-left: 10px;
+}
+
+.like-button {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.like-button:hover {
+    background-color: #ccc;
+}
+

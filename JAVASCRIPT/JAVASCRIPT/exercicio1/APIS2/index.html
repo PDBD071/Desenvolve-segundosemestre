@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Feed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="feed-container">
+        <form id="postForm">
+            <input type="text" id="username" placeholder="Seu nome de usuário" required>
+            <input type="text" id="avatarUrl" placeholder="URL do seu avatar (opcional)">
+            <textarea id="postContent" placeholder="O que está acontecendo?" required></textarea>
+            <button type="submit">Postar</button>
+        </form>
+
+        <ul id="postsList"></ul>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+

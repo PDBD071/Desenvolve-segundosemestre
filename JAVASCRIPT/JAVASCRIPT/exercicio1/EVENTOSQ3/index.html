@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: left;
+        }
+        .task {
+            display: flex;
+            align-items: left;
+            margin: 10px 0;
+        }
+        .task.completed {
+            text-decoration: line-through;
+            color: rgb(233, 59, 59);
+        }
+        .task input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        input[type="text"] {
+            width: 18%;
+            padding: 10px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: rgb(244, 230, 230);
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    <div>
+        <input type="text" id="taskDescription" placeholder="Digite a descrição da tarefa">
+        <button id="addTaskButton">Adicionar</button>
+    </div>
+    <div id="taskList"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>

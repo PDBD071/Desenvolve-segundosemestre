@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem Curtiu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: left;
+        }
+        input[type="text"] {
+            width: 18%;
+            padding: 10px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 10px 15px;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button#likeButton {
+            background-color: #28a745; /* Verde para o botão "Curtir" */
+        }
+        button#likeButton:hover {
+            background-color: #218838; /* Verde mais escuro ao passar o mouse */
+        }
+        button#clearStorageButton {
+            background-color: #dc3545; /* Vermelho para o botão "Limpar" */
+            margin-left: 10px; /* Adiciona um espaço à esquerda do botão "Limpar" */
+        }
+        button#clearStorageButton:hover {
+            background-color: #c82333; /* Vermelho mais escuro ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <h1>Pessoas que Curtiram</h1>
+    <div>
+        <input type="text" id="personName" placeholder="Digite o nome da pessoa">
+        <button id="likeButton">Curtir</button>
+        <button id="clearStorageButton">Limpar</button>
+    </div>
+    <p id="likesDisplay">Ninguém curtiu</p>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
