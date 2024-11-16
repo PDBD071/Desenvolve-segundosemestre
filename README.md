@@ -4,13 +4,15 @@ Bem-vindo ao jogo "Aventura no Labirinto"! Neste jogo, o jogador deve navegar po
 
 ## Como Jogar
 
-- Use as setas do teclado para se mover.
-- Colete itens pelo caminho para aumentar sua pontuação.
+- Use as teclas `w`, `a`, `s`, `d` para se mover no labirinto.
+- O objetivo é alcançar a saída enquanto coleta itens para aumentar sua pontuação.
+- Pressione `Esc` para sair do jogo.
 
 ## Instalação
 
-1. Crie um ambiente virtual:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Para Linux/Mac
-   venv\Scripts\activate     # Para Windows
+Siga os passos abaixo para instalar e jogar:
+
+### 1. Crie um ambiente virtual:
+```bash
+python -m venv venv
+
